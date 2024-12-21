@@ -66,9 +66,6 @@ RUN cd /home/${user_name} && \
   git clone --depth 1 ${dotfiles_repository} && \
   dotfiles/install.sh
 
-# express server
-EXPOSE 3000
-
 WORKDIR /app
 ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["tail", "-F", "/dev/null"]
