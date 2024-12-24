@@ -12,6 +12,7 @@
   "license": "Apache-2.0",
   "description": "Hello NPMJS",
   "files": [
-    "index.js"
+    "index.js",
+    "README.md"
   ]
 }
