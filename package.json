@@ -1,17 +1,15 @@
 {
   "name": "@uraitakahito/hello-npmjs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uraitakahito/hello-npmjs.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "Apache-2.0",
   "description": "Hello NPMJS",
   "files": [
-    "index.js"
+    "index.js",
+    "README.md"
   ]
 }
