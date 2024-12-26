@@ -1,6 +1,7 @@
 {
   "name": "@uraitakahito/hello-npmjs",
-  "version": "1.1.1",
+  "version": "1.1.2",
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uraitakahito/hello-npmjs.git"
@@ -9,7 +10,7 @@
   "license": "Apache-2.0",
   "description": "Hello NPMJS",
   "files": [
-    "index.js",
+    "./lib/index.js",
     "README.md"
   ]
 }
