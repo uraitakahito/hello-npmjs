@@ -1,1 +1,1 @@
-declare const say: () => string;
+export function say(): string;
